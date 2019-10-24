@@ -26,6 +26,7 @@ class TestLogin:
 
     # 结束
     def teardown_class(self):
+        
         # 关闭 driver
         self.login.driver.quit()
 
