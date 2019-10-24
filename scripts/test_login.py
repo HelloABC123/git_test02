@@ -29,6 +29,7 @@ class TestLogin:
         # 关闭 driver
         self.login.driver.quit()
 
+
     # 测试方法
     @pytest.mark.parametrize("username,pwd",get_data())
     def test_login(self, username, pwd):
